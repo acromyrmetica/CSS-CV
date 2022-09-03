@@ -58,7 +58,6 @@ p {
 .bottom-cloud {
     bottom: 20rem;
     left: 15rem;
-    overflow: hidden;
     position: absolute;
 }
 
@@ -154,7 +153,6 @@ p {
 }
 
 .top-cloud {
-    overflow: hidden;
     position: absolute;
     right: 15rem;
     top: 9rem;
@@ -162,6 +160,7 @@ p {
 
 .top-container {
     background-color: var(--turquoise);
+    overflow: hidden;
     padding-top: 7rem;
     position: relative;
 }
