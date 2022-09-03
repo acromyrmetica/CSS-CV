@@ -1,0 +1,175 @@
+/******* pseudo selectors *******/
+
+:root {
+    --coffee: #CA955C; /** .bottom-container **/
+    --cream: #EAF6F6; /** hr **/
+    --khaki: #EDDFB3; /** div **/
+    --chocolate: #614124; /** .middle-container h2 **/
+    --sky-blue: #A5F1E9; /** h1, .top-container h2 **/
+    --teal: #11999E; /** h3 **/
+    --turquoise: #76BA99; /** .top-container **/
+    --white: #EAF6F6; /** .bottom-container p **/
+}
+
+/******* tag selectors *******/
+
+body {
+    font-family: "Merriweather", serif;
+    font-size: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+div {
+    background-color: var(--khaki);
+}
+
+h1 {
+    color: var(--sky-blue);
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+    margin-top: 3.125rem auto 0;
+}
+
+h2 {
+    font-weight: normal;
+    margin-top: 4rem;
+}
+
+h3 {
+    color: var(--teal);
+}
+
+hr {
+    border-style: dotted none none;
+    border-width: 0.6rem;
+    color: var(--cream);
+    margin: 2rem auto;
+    width: 5rem;
+}
+
+p {
+    margin: 0;
+}
+
+/****** class selectors *******/
+
+.bottom-cloud {
+    bottom: 20rem;
+    left: 27rem;
+    position: absolute;
+}
+
+.bottom-container {
+    background-color: var(--coffee);
+    height: 100%;
+    width: 100%;
+}
+
+.bottom-container a {
+    text-decoration: none;
+}
+
+.bottom-container p {
+    color: var(--white);
+    margin-top: 2rem;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #FFF;
+    font-size: 20px;
+    background: #CA955C;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.contact-me p {
+    margin-bottom: 3.5rem;
+}
+
+.footer-link {
+    border-radius: 50%;
+    height: 4rem;
+    margin-top: 2rem;
+    width: 4rem;
+}
+
+.middle-container {
+    height: 100%;
+    width: 100%;
+}
+
+.middle-container h2 {
+    color: var(--chocolate);
+}
+
+.pokemon-img {
+    border-radius: 50%;
+    float: left;
+    height: 25% /**18.75rem**/;
+    margin-right: 1.875rem;
+    margin-top: 1.25rem;
+    width: 25% /**18.75rem**/;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 25% /**18.75rem**/;
+    margin-top: 4rem;
+    width: 25% /**18.75rem**/;
+}
+
+.profile p {
+    line-height: 2;
+    margin: 4rem auto;
+    width: 30rem;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 4rem auto 6.25rem; 
+    text-align: left;
+    width: 50%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 25.5rem;
+    top: 8rem;
+}
+
+.top-container {
+    background-color: var(--turquoise);
+    padding-top: 7rem;
+    position: relative;
+}
+
+.top-container h2 {
+    color: var(--sky-blue);
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.yoga-img {
+    border-radius: 50%;
+    float: right;
+    height: 25%;
+    margin-left: 1.875rem;
+    margin-top: 1.25rem;
+    width: 25%;
+}
