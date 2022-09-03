@@ -57,7 +57,8 @@ p {
 
 .bottom-cloud {
     bottom: 20rem;
-    left: 27rem;
+    left: 15rem;
+    overflow: hidden;
     position: absolute;
 }
 
@@ -118,6 +119,9 @@ p {
     color: var(--chocolate);
 }
 
+.mountain {
+    max-width: 100%;
+
 .pokemon-img {
     border-radius: 50%;
     float: left;
@@ -137,6 +141,7 @@ p {
 .profile p {
     line-height: 2;
     margin: 4rem auto;
+    max-width: 100%;
     width: 30rem;
 }
 
@@ -148,9 +153,10 @@ p {
 }
 
 .top-cloud {
+    overflow: hidden;
     position: absolute;
-    right: 25.5rem;
-    top: 8rem;
+    right: 15rem;
+    top: 9rem;
 }
 
 .top-container {
